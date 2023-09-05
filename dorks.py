@@ -30,7 +30,7 @@ def search_google(query, num_pages):
         except requests.exceptions.RequestException as e:
             print("Error:", e)
         
-        time.sleep(1)  # Add a 1-second delay between requests
+        time.sleep(15)  # Add a 15-second delay between requests
 
     return results
 
